@@ -1,0 +1,20 @@
+{
+  "name": "zhuiyi-team",
+  "interface": {
+    "displayName": "Zhuiyi Team"
+  },
+  "plugins": [
+    {
+      "name": "zhuiyi-jira-mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zhuiyi-jira-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

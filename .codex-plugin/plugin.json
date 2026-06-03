@@ -1,0 +1,25 @@
+{
+  "name": "zhuiyi-jira-mcp",
+  "version": "0.1.0",
+  "description": "Read-only MCP server for fetching structured requirement context from Zhuiyi Jira issue URLs.",
+  "author": {
+    "name": "Zhuiyi"
+  },
+  "license": "UNLICENSED",
+  "keywords": ["jira", "mcp", "requirements", "zhuiyi"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Zhuiyi Jira MCP",
+    "shortDescription": "Read Jira requirements from issue URLs.",
+    "longDescription": "Provides read-only MCP tools for fetching raw Jira issues and normalized requirement context from Zhuiyi Jira links.",
+    "developerName": "Zhuiyi",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "defaultPrompt": [
+      "Read this Jira requirement.",
+      "Fetch the raw Jira issue.",
+      "Summarize this Jira story."
+    ],
+    "brandColor": "#0C66E4"
+  }
+}

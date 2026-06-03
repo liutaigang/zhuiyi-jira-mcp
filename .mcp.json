@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "zhuiyi-jira": {
+      "command": "node",
+      "args": ["./dist/index.js"],
+      "env": {
+        "JIRA_AUTH_TYPE": "cookie",
+        "JIRA_API_VERSION": "latest",
+        "JIRA_ALLOWED_HOSTS": "jira.in.wezhuiyi.com"
+      }
+    }
+  }
+}

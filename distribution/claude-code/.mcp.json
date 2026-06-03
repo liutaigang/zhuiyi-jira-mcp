@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "zhuiyi-jira": {
+      "command": "node",
+      "args": [
+        "/absolute/path/to/zhuiyi-jira-mcp/dist/index.js"
+      ],
+      "env": {
+        "JIRA_AUTH_TYPE": "cookie",
+        "JIRA_COOKIE": "JSESSIONID=...; atlassian.xsrf.token=...",
+        "JIRA_API_VERSION": "latest",
+        "JIRA_ALLOWED_HOSTS": "jira.in.wezhuiyi.com",
+        "JIRA_REQUIREMENT_FIELDS": "{\"acceptanceCriteria\":\"customfield_10042\",\"storyPoints\":\"customfield_10016\"}"
+      }
+    }
+  }
+}
